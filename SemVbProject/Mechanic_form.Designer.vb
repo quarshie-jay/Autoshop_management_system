@@ -24,23 +24,22 @@ Partial Class Mechanic_Form
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Mechanic_Form))
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.lbl_name = New Guna.UI.WinForms.GunaLabel()
         Me.btn_clockin = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btn_clockout = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btn_logout = New Guna.UI2.WinForms.Guna2Button()
         Me.dgvClockRecords = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.GunaGradient2Panel1 = New Guna.UI.WinForms.GunaGradient2Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.lbl_hours = New Guna.UI.WinForms.GunaLabel()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvClockRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GunaGradient2Panel1.SuspendLayout()
@@ -127,42 +126,42 @@ Partial Class Mechanic_Form
         'dgvClockRecords
         '
         Me.dgvClockRecords.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
-        Me.dgvClockRecords.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvClockRecords.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        Me.dgvClockRecords.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvClockRecords.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvClockRecords.ColumnHeadersHeight = 31
         Me.dgvClockRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvClockRecords.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvClockRecords.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvClockRecords.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgvClockRecords.Location = New System.Drawing.Point(315, 375)
         Me.dgvClockRecords.Name = "dgvClockRecords"
         Me.dgvClockRecords.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvClockRecords.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvClockRecords.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.dgvClockRecords.RowHeadersVisible = False
         Me.dgvClockRecords.Size = New System.Drawing.Size(417, 150)
         Me.dgvClockRecords.TabIndex = 5
@@ -187,24 +186,6 @@ Partial Class Mechanic_Form
         Me.dgvClockRecords.ThemeStyle.RowsStyle.Height = 22
         Me.dgvClockRecords.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.White
         Me.dgvClockRecords.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
-        '
-        'Guna2DateTimePicker1
-        '
-        Me.Guna2DateTimePicker1.Animated = True
-        Me.Guna2DateTimePicker1.BorderRadius = 2
-        Me.Guna2DateTimePicker1.Checked = True
-        Me.Guna2DateTimePicker1.FillColor = System.Drawing.Color.Black
-        Me.Guna2DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DateTimePicker1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.Guna2DateTimePicker1.Location = New System.Drawing.Point(424, 94)
-        Me.Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
-        Me.Guna2DateTimePicker1.ShowUpDown = True
-        Me.Guna2DateTimePicker1.Size = New System.Drawing.Size(203, 63)
-        Me.Guna2DateTimePicker1.TabIndex = 6
-        Me.Guna2DateTimePicker1.Value = New Date(2024, 5, 19, 16, 30, 42, 901)
         '
         'Guna2ControlBox2
         '
@@ -248,6 +229,15 @@ Partial Class Mechanic_Form
         Me.GunaGradient2Panel1.Size = New System.Drawing.Size(206, 133)
         Me.GunaGradient2Panel1.TabIndex = 16
         '
+        'lbl_hours
+        '
+        Me.lbl_hours.AutoSize = True
+        Me.lbl_hours.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_hours.Location = New System.Drawing.Point(78, 61)
+        Me.lbl_hours.Name = "lbl_hours"
+        Me.lbl_hours.Size = New System.Drawing.Size(0, 37)
+        Me.lbl_hours.TabIndex = 1
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -258,15 +248,6 @@ Partial Class Mechanic_Form
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "HOURS WORKED IN WEEK"
         '
-        'lbl_hours
-        '
-        Me.lbl_hours.AutoSize = True
-        Me.lbl_hours.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_hours.Location = New System.Drawing.Point(78, 61)
-        Me.lbl_hours.Name = "lbl_hours"
-        Me.lbl_hours.Size = New System.Drawing.Size(0, 37)
-        Me.lbl_hours.TabIndex = 1
-        '
         'Mechanic_Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -275,7 +256,6 @@ Partial Class Mechanic_Form
         Me.Controls.Add(Me.GunaGradient2Panel1)
         Me.Controls.Add(Me.Guna2ControlBox2)
         Me.Controls.Add(Me.Guna2ControlBox1)
-        Me.Controls.Add(Me.Guna2DateTimePicker1)
         Me.Controls.Add(Me.dgvClockRecords)
         Me.Controls.Add(Me.btn_logout)
         Me.Controls.Add(Me.btn_clockout)
@@ -301,7 +281,6 @@ Partial Class Mechanic_Form
     Friend WithEvents btn_clockout As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btn_logout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents dgvClockRecords As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Guna2ControlBox2 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl

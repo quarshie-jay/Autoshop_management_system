@@ -317,10 +317,10 @@ Partial Class Customer_form
         Me.panel1.Controls.Add(Me.lbl_oil)
         Me.panel1.Controls.Add(Me.GunaLabel3)
         Me.panel1.FillColor = System.Drawing.Color.White
-        Me.panel1.Location = New System.Drawing.Point(592, 159)
+        Me.panel1.Location = New System.Drawing.Point(579, 148)
         Me.panel1.Name = "panel1"
         Me.panel1.ShadowColor = System.Drawing.Color.Black
-        Me.panel1.Size = New System.Drawing.Size(338, 502)
+        Me.panel1.Size = New System.Drawing.Size(351, 513)
         Me.panel1.TabIndex = 9
         '
         'btn_checkout
