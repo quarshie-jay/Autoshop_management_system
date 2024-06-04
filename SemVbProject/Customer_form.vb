@@ -54,7 +54,7 @@ Public Class Customer_form
     End Sub
 
     Private Function CalculateTotalBill() As Decimal
-        ' Calculate the total bill based on the selected services
+
         Dim totalBill As Decimal = 0
         If chk_oil.Checked Then
             totalBill += 150
