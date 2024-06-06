@@ -11,7 +11,7 @@ Public Class Customer_form
     End Sub
 
     Private Sub btn_proceed_Click(sender As Object, e As EventArgs) Handles btn_proceed.Click
-        ' Display the selected services and total bill
+
         DisplaySelectedServicesAndTotalBill()
     End Sub
 
